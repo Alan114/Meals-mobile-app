@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, StyleSheet, AppRegistry } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import * as Font from "expo-font";
 import AppLoading from "expo-app-loading";
 import MealsNavigator from "./navigation/MealsNavigator";
@@ -25,5 +25,3 @@ export default function App() {
 
   return <MealsNavigator />;
 }
-
-AppRegistry.registerComponent("App", () => App);
