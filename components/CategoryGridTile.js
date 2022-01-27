@@ -40,7 +40,6 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
     padding: 15,
     borderRadius: 10,
-    elevation: 3,
     shadowColor: "black",
     shadowOpacity: 0.26,
     shadowOffset: {
@@ -48,6 +47,7 @@ const styles = StyleSheet.create({
       height: 2,
     },
     shadowRadius: 10,
+    elevation: 3,
   },
   title: {
     fontFamily: "open-sans-bold",
